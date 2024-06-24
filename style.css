@@ -1,0 +1,44 @@
+/* * {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  display: inline-block;
+  padding: 20px;
+  border: 2px solid red;
+  border-radius: 8px;
+}*/
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+label {
+  display: block;
+  min-width: 30px;
+}
+
+h1 {
+  border: 1px solid #000;
+  padding: 50px;
+}
+
+span {
+  color: red;
+}
+
+.search {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.search input {
+  flex-grow: 1;
+}
